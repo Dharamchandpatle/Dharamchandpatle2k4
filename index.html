@@ -1,0 +1,674 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharam's </title>
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- link icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- boxicone icon cdn  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ...Fevicon...  -->
+    <link rel="icon" type="image/x-icon" href="Dharamchand3.jpg">
+</head>
+<body class="font-serif">
+
+  <!-- --------------------------------------- Upper Navbar --------------------------- -->
+<main>
+  <header class="header bg-[#ffffff] py-8 text-[#000] font-bold font-serif">
+    <nav class="nav flex flex-col md:flex-row justify-around align-center gap-[3rem] ">
+        <!-- ... Media Icon ... -->
+
+        <ul class="media-icon flex align-center pl-[5rem] justify-around gap-[1rem]">
+          <li class="mb-2 md:mb-0">
+              <a target="_blank"  class="rounded-full border-2 shadow-lg border-[#95adbe]  text-[#000] bg-[#ffffff] hover:bg-[#95adbe] hover:text-[#ffffff] flex items-center justify-center w-10 h-10 shadow-lg"
+                  href="https://www.linkedin.com/in/dharamchand-patle-web-developer-802413282/">
+                  <i class="fa-brands fa-linkedin"></i>
+              </a>
+          </li>
+          <li class="mb-2 md:mb-0">
+              <a target="_blank" class="rounded-full border-2 border-[#95adbe]  text-[#000] bg-[#ffffff] hover:bg-[#95adbe] hover:text-[#ffffff] flex items-center justify-center w-10 h-10 shadow-lg"
+                  href="https://github.com/">
+                  <i class="fa-brands fa-github"></i>
+              </a>
+          </li>
+      
+          <li class="mb-2 md:mb-0">
+              <a target="_blank" class="rounded-full border-2 border-[#95adbe]  text-[#000] bg-[#ffffff] hover:bg-[#95adbe] hover:text-[#ffffff] flex items-center justify-center w-10 h-10 shadow-lg"
+                  href="tel:+91 6263827162">
+                  <i class="fa-solid fa-phone"></i>
+              </a>
+          </li>
+      
+          <li class="mb-2 md:mb-0">
+              <a target="_blank" class="rounded-full border-2 border-[#95adbe]  text-[#000] bg-[#ffffff] hover:bg-[#95adbe] hover:text-[#ffffff] flex items-center justify-center w-10 h-10 shadow-lg"
+                  href="#">
+                  <i class="fa-brands fa-instagram"></i>
+              </a>
+          </li>
+      </ul>
+      
+
+        <div class="uper-header-section bg-[#ffffff] text-[#000] text-center font-serif md:w-1/2">
+            <h2 class="modern uppercase text-xl md:text-3xl my-[-0.5rem] font-bold text-[#fe9901]">
+                <span class="uper-span font-bold uppercase text-[#000]">Dharamchand </span>Patle
+            </h2>
+            <h6 class="uper-h6 tracking-[.20em] uppercase text-xs md:text-sm">
+                Freelance Web Designer
+            </h6>
+        </div>
+
+        <div class="search ">
+           <ul class="flex flex-row-reverse pr-[6rem] md:flex-row   ">
+            <li><a href="#" class="rounded-full shadow-lg border-2 border-[#95adbe] text-[#000] bg-[#ffffff] hover:bg-[#95adbe] hover:text-[#ffffff] flex items-center justify-center w-10 h-10"> <i class="fa-solid fa-magnifying-glass"></i></a>               
+            </li>
+           </ul>
+        </div>
+    </nav>
+</header>
+
+  
+    <!-- ------------------------- Navbar Started ------------------------------------ -->
+ 
+    <nav class="bg-[#ffffff] border-2 border-[#95adbe] dark:bg-[#ffffff]" id="">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-[0, 0, 0] hover:text-[#95adbe] "><span class="text-[#fe9901]">Dharam's</span> Dev</span>
+    </a>
+    <div class="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+          <span class="sr-only">Open user menu</span>
+          <img class="w-8 h-8 rounded-full shadow-lg" src="Dharamchand3.jpg" alt="user photo">
+        </button>
+
+        <!-- Dropdown menu -->
+        <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
+          <div class="px-4 py-3">
+            <span class="block text-sm text-[#000] dark:text-[#000]">Dharamchand Patle</span>
+            <span class="block text-sm  text-[#000] truncate dark:text-[#000]">dharamchandpatle@gmail.com</span>
+          </div>
+          <ul class="py-2" aria-labelledby="user-menu-button">
+            <li>
+              <a href="#" class="block px-4 py-2 text-sm text-text-[0, 0, 0] hover:hover:text-[#95adbe] dark:hover:hover:text-[#95adbe] dark:text-[0, 0, 0] dark:hover:text-[0, 0, 0]">Dashboard</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 text-sm text-text-[0, 0, 0] hover:hover:text-[#95adbe] dark:hover:hover:text-[#95adbe] dark:text-[0, 0, 0] dark:hover:text-[0, 0, 0]">Settings</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 text-sm text-text-[0, 0, 0] hover:hover:text-[#95adbe] dark:hover:hover:text-[#95adbe] dark:text-[0, 0, 0] dark:hover:text-[0, 0, 0]">Earnings</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 text-sm text-text-[0, 0, 0] hover:hover:text-[#95adbe] dark:hover:hover:text-[#95adbe] dark:text-[0, 0, 0] dark:hover:text-[0, 0, 0]">Sign out</a>
+            </li>
+          </ul>
+        </div>
+        <button data-collapse-toggle="navbar-user" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-user" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+
+    </div>
+    <div class=" items-center justify-between hidden  w-full md:flex text-[0, 0, 0] md:w-auto md:order-1" id="navbar-user">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-bold rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0   ">
+          <li><a class=" text-[#95adbe] hover:text-[#000]" href="#home">Home</a></li>
+          <li><a class="hover:text-[#95adbe] " href="#about">About</a></li>
+          <li><a class="hover:text-[#95adbe] " href="#Why-choose-me">Why Choose Me ?</a></li>
+          <li><a class="hover:text-[#95adbe] " href="#my-works">My Works</a></li>
+          <li><a class="hover:text-[#95adbe] " href="#portfolio">Portfolio</a></li>
+          <li><a class="hover:text-[#95adbe] " href="#services">Services</a></li>
+          <li><a  class="hover:text-[#95adbe] "href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  
+<!-- --------------------------------------- Hero Section ----------------------------  -->
+
+<section class="bg-[#f0eff4] text-[#000]  sm:px-8 md:px-12 lg:px-16 xl:px-20" id="home">
+    <div class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+        <div class="flex flex-col justify-center p-6 text-center sm:text-left lg:max-w-md xl:max-w-lg">
+            <h2 class="font-semibold text-2xl sm:text-3xl lg:text-4xl"><span class="text-4xl">H</span>i , My Name is </h2>
+            <h1 class="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-bold leading-snug">
+                <span class="font-bold text-6xl text-[#fe9901]">D</span>haramchand <span class="font-bold text-5xl text-[#95adbe]">P</span>atle 
+            </h1><br>
+            <h3 class="font-semibold text-2xl sm:text-3xl">I build things for the web.</h3>
+            <p class="mt-6 mb-8 text-base sm:text-lg lg:text-base xl:text-lg ">I am a <span class="text-2xl text-[#fe9901]">F</span>reelance <span class=" text-2xl text-[#fe9901]">W</span>eb <span class=" text-2xl text-[#fe9901]">D</span>esigner. I work with small business owners, startups, 
+                <br class="hidden md:inline lg:hidden"> and individuals who want to get more online visibility.
+            </p>
+            <div class="btn-box flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+                <a rel="noopener noreferrer" download="" target="_blank" href="https://drive.google.com/file/d/13KFA4C2IZPpCyJ3ctOajH1ov367W-y6N/view?usp=sharing" class="btn px-6 sm:px-8 py-3 text-base sm:text-lg font-semibold  rounded border-2 border-[#95adbe] bg-[#95adbe] text-[#ffffff]" >Download CV</a>
+                <a rel="noopener noreferrer" href="#" class="btn px-6 sm:px-8 py-3 text-base sm:text-lg font-semibold border rounded border-2 border-[#95adbe] bg-[#f0eff4]  ">Hire Me</a>
+            </div>
+        </div>
+        <div class="flex items-center justify-center p-6 mt-8 lg:mt-0">
+            <img src="Business_SVG-removebg-preview.png" alt="" class="img-hero object-contain h-64 sm:h-72 lg:h-80 xl:h-96 2xl:h-112">
+        </div>
+    </div>
+</section>
+
+
+<!-- ------------------------------------------About Section ---------------------------------  -->
+
+<section class=" sm:px-8 md:px-12 lg:px-20 xl:px-20 pt-[5rem] pb-[5rem] bg-white text-black flex flex-col sm:flex-row justify-center items-center sm:gap-7" id="about">
+  <div class="sm:w-[45%]">
+    <div class="flex items-center">
+      <h2 class="text-xl font-semibold"><span class="font-bold text-4xl text-[#95adbe]">01.</span> About Me</h2>
+      <div class="flex items-center pl-3">
+        <span class="block w-24 h-1 rounded bg-[#fe9901]"></span>
+      </div>
+    </div>
+
+    <div class="description mt-4">
+      <h1 class="leading-10 font-semibold text-2xl">
+        Hello, I am <span class="font-bold text-2xl text-[#fe9901]">D</span>haramchand <span class="font-bold text-2xl text-[#95adbe]">P</span>atle
+      </h1>
+      <p class="text-[#4c4c4c]">
+        I am a Freelance Web Designer. I work with small business owners, startups, and individuals who want to get more online visibility.
+      </p>
+      <p class="text-[#4c4c4c]">
+        Here are a few technologies I’ve been working with recently:
+      </p>
+    </div>
+    <br>
+    <div class="tools flex gap-9">
+      <div>
+        <ul>
+          <li>
+            <a href="#" class="flex items-center"><i class="fab fa-html5 mr-2 font-bold text-2xl  text-[#fe9901]"></i> HTML</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center"><i class="fab fa-css3-alt mr-2 font-bold text-2xl  text-[#fe9901]"></i> CSS</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center"><i class="fab fa-js mr-2 font-bold text-2xl  text-[#fe9901]"></i> JavaScript</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="#" class="flex items-center"><i class="fab fa-bootstrap mr-2 font-bold text-2xl  text-[#fe9901]"></i> Bootstrap</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center"><i class='bx bxl-tailwind-css bx-flip-horizontal mr-2 font-bold text-2xl  text-[#fe9901]' ></i>Tailwind CSS</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center"><i class="fab fa-react mr-2 font-bold text-2xl  text-[#fe9901]"></i> React.js</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="btn-box mt-4">
+       <h2 class=" font-semibold text-[#4c4c4c] leading-10 ">Connect With me Now at :&nbsp;&nbsp; <a rel="noopener noreferrer" download="" target="_blank" href="https://www.linkedin.com/in/dharamchand-patle-web-developer-802413282/" class="btn px-5 sm:px-5 py-2 text-base sm:text-lg font-semibold  rounded border-2 border-[#95adbe] bg-[#95adbe] text-[#ffffff]" >&nbsp;&nbsp;<i class="fa-brands fa-linkedin"></i> &nbsp;Linkedin</a>
+       </h2>
+    </div>
+  </div>
+
+  <div class="w-full sm:w-[50%] mt-8 sm:mt-0">
+    <div class="mx-auto w-[80%]  sm:w-[50%] my-img">
+      <img src="Dharamchand3.jpg" class="img1 object-cover rounded-lg" alt="" />
+    </div>
+    
+  </div>
+</section>
+
+<!-- ----------------------------------- Why Choose Me ? -------------------------  -->
+
+<section class="  pt-[5rem] pb-[5rem] bg-[#f5f4f0] text-black flex flex-col sm:flex-row justify-center items-center sm:gap-14" id="Why-choose-me">
+  <div class="sm:w-[53%]">
+    <div class="flex items-center">
+      <h2 class="text-xl font-semibold"><span class="font-bold text-4xl text-[#95adbe]">02.</span> Why Choose Me ?</h2>
+      <div class="flex items-center pl-3">
+        <span class="block w-24 h-1 rounded bg-[#fe9901]"></span>
+      </div>
+    </div>
+
+    <div class="description mt-4">
+      <h1 class="leading-10 font-semibold text-2xl">
+        <span class="font-bold text-2xl text-[#fe9901]">C</span>reative <span class="font-bold text-2xl text-[#fe9901]">W</span>eb <span class="font-bold text-2xl text-[#fe9901]">D</span>esigner
+      </h1>
+      <p class="text-[#4c4c4c]">
+        I have a broad technical skill set and three years of expertise in front-end web development. Capable of multitasking and juggling numerous urgent projects simultaneously. Always up to date on the newest trends and technology. 
+      </p><br>
+      <p class="text-[#4c4c4c]">Here are all services that  I’ll be offering with to you:</p>
+    </div>
+    <br>
+    <div class="tools flex gap-9">
+      <div>
+        <ul>
+          <li>
+            <a href="#" class="flex items-center"><i class="fa-solid fa-bolt mr-2 font-bold text-2xl  text-[#fe9901]"></i> Super Fast Delivery</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center"><i class="fa-regular fa-handshake mr-2 font-bold text-2xl  text-[#fe9901]"></i> Good communication skills</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center"><i class="fa-regular fa-hourglass-half  mr-2 font-bold text-2xl  text-[#fe9901]"></i>24x7 Support Available</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="#" class="flex items-center"><i class="fa-solid fa-arrows-rotate  mr-2 font-bold text-2xl  text-[#fe9901]"></i> Unlimited revision</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center"><i class="fa-regular fa-thumbs-up  mr-2 font-bold text-2xl  text-[#fe9901]"></i>Guarantee</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center"><i class="fab fa-react mr-2 font-bold text-2xl  text-[#fe9901]"></i> 100% client satisfaction
+              100% Money-Back</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="btn-box mt-4">
+       <h2 class=" font-semibold text-[#4c4c4c] leading-10 "> Click Now:&nbsp;&nbsp; <a rel="noopener noreferrer" download="" target="_blank" href="https://drive.google.com/file/d/13KFA4C2IZPpCyJ3ctOajH1ov367W-y6N/view?usp=sharing" class="btn px-5 sm:px-5 py-2 text-base sm:text-lg font-semibold  rounded border-2 border-[#95adbe] bg-[#95adbe] text-[#ffffff]" >&nbsp;&nbsp;<i class="fa-brands fa-linkedin"></i> &nbsp;Download CV</a>
+       </h2>
+    </div><br>
+  </div><br>
+  <div class="flex justify-center items-center gap-5 sm:flex-wrap sm:pt-12 ">
+    <div class="">
+      <div class="text-3xl sm:text-2xl text-center border-2 lg:mb-4 sm:mb-4  lg:p-6 sm:p-6 shadow-lg  hover:shadow-[#fe9901]  rounded-l-lg border-[#fe9901]">
+        <h2>15+</h2>
+        <h4>Our Happy Client</h4>
+      </div>
+      <div class="text-3xl sm:text-2xl text-center border-2 lg:mb-4 mt-4  lg:p-6 sm:p-6 shadow-lg  hover:shadow-[#fe9901] rounded-b-lg border-[#95adbe]">
+        <h2>200+</h2>
+        <h4>Cups of coffee</h4>
+      </div>
+    </div>
+    <div class="box-container box-container-2">
+      <div class="text-3xl sm:text-2xl text-center border-2 lg:mb-4 sm:mb-4  lg:p-6 sm:p-6 shadow-lg  hover:shadow-[#fe9901] rounded-r-lg border-[#95adbe]">
+        <h2>20+</h2>
+        <h4>Project Complete</h4>
+      </div>
+      <div class="text-3xl sm:text-2xl text-center border-2 lg:mb-4 mt-4 lg:p-6 sm:p-6 shadow-lg   hover:shadow-[#fe9901] rounded-r-lg  border-[#fe9901]">
+        <h2>2+</h2>
+        <h4>Year Experience</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- --------------------------------------------------- Work  Section ------------------------------------  -->
+
+<section class="px-[5rem] lg:p-8 bg-[#ffffff] text-[#000] " id="my-works">
+  <div class="flex items-center">
+    <h2 class="text-xl font-semibold"><span class="font-bold text-4xl text-[#95adbe]">03.</span> My Best Works are </h2>
+    <div class="flex items-center pl-3">
+      <span class="block w-24 h-1 rounded bg-[#fe9901]"></span>
+    </div>
+  </div><br>
+	<div class="container mx-auto space-y-12">
+		<div class="bg-[#f0eff4] flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
+			<video autoplay muted loop src="Minimalist Laptop Mockup Beauty Facebook Cover (4).mp4" class="h-80 bg-gray-500  object-contain"></video>
+			<div class="flex flex-col justify-center flex-1 p-6 ">
+				<!-- <span class="text-xs uppercase text-gray-400">Join, it's free</span> -->
+				<h3 class="text-3xl font-bold">Vintage Made Modern Clone 🚀</h3>
+				<p class="my-6 text-[#4c4c4c]">A beautifulPortfolio website website with Services, Pricing and About, Contact Us Pages. Attractive layout designs and animations. Services Details and Testimonials are clearly mentioned. All images and content are copyright free.</p>
+        
+        <div class="best-work-icon">
+          <i class="fab fa-html5 mr-2 font-bold text-xl  text-[#fe9901] rounded-full border-2 border-[#95adbe] h-10 w-10 text-center hover:bg-[#95adbe] hover:text-[#4c4c4c] pt-1 shadow-lg"></i>
+          <span class=" font-bold text-xl  "> &nbsp; HTML &nbsp;&nbsp;</span>
+          <i class="fab fa-css3-alt mr-2 font-bold text-xl  text-[#fe9901] rounded-full border-2 border-[#95adbe] h-10 w-10 text-center hover:bg-[#95adbe] hover:text-[#4c4c4c] pt-1 shadow-lg"></i>
+          <span class=" font-bold text-xl "> &nbsp; CSS &nbsp;&nbsp;</span>
+          <i class="fab fa-js mr-2 font-bold text-xl  text-[#fe9901] rounded-full border-2 border-[#95adbe] h-10 w-10 text-center hover:bg-[#95adbe] hover:text-[#4c4c4c] pt-1 shadow-lg"></i>
+          <span class=" font-bold text-xl "> &nbsp; java script &nbsp;&nbsp;</span>
+          <i class='bx bxl-tailwind-css bx-flip-horizontal  mr-2 font-bold text-xl text-[#fe9901] rounded-full border-2 border-[#95adbe] h-10 w-10 text-center hover:bg-[#95adbe] hover:text-[#4c4c4c] pt-1 shadow-lg' ></i>
+          <span class=" font-bold text-xl "> &nbsp; Tailwind CSS  &nbsp;&nbsp;</span>
+        </div>
+        <div class="btn-box mt-4">
+           <h2 class=" font-semibold text-[#000] leading-10 ">Have a Look :&nbsp;&nbsp; <a rel="noopener noreferrer" download="" target="_blank" href="https://dharamchandpatle.github.io/wintage-tailwind/" class="btn px-4 sm:px-4 py-1 text-base sm:text-lg font-semibold  rounded border-2 border-[#95adbe] bg-[#95adbe] text-[#ffffff]" >Let's See  &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+           </h2>
+        </div>
+			</div>
+		</div>
+		<div class="bg-[#f0eff4] flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
+			<video autoplay muted loop src="Minimalist Laptop Mockup Beauty Facebook Cover (5).mp4" class="h-80 bg-gray-500  object-contain"></video>
+					<div class="flex flex-col justify-center flex-1 p-6 ">
+				<!-- <span class="text-xs uppercase text-gray-400">Join, it's free</span> -->
+				<h3 class="text-3xl font-bold">Dribble Landing page Clone 🚀</h3>
+				<p class="my-6 text-[#4c4c4c]">A beautifulPortfolio website website with Services, Pricing and About, Contact Us Pages. Attractive layout designs and animations. Services Details and Testimonials are clearly mentioned. All images and content are copyright free.</p>
+				 
+        <div class="best-work-icon">
+          <i class="fab fa-html5 mr-2 font-bold text-xl  text-[#fe9901] rounded-full border-2 border-[#95adbe] h-10 w-10 text-center hover:bg-[#95adbe] hover:text-[#4c4c4c] pt-1 shadow-lg"></i>
+          <span class=" font-bold text-xl  "> &nbsp; HTML &nbsp;&nbsp;</span>
+          <i class="fab fa-css3-alt mr-2 font-bold text-xl  text-[#fe9901] rounded-full border-2 border-[#95adbe] h-10 w-10 text-center hover:bg-[#95adbe] hover:text-[#4c4c4c] pt-1 shadow-lg"></i>
+          <span class=" font-bold text-xl "> &nbsp; CSS &nbsp;&nbsp;</span>
+          <i class="fab fa-js mr-2 font-bold text-xl  text-[#fe9901] rounded-full border-2 border-[#95adbe] h-10 w-10 text-center hover:bg-[#95adbe] hover:text-[#4c4c4c] pt-1 shadow-lg"></i>
+          <span class=" font-bold text-xl "> &nbsp; java script &nbsp;&nbsp;</span>
+          <i class='bx bxl-tailwind-css bx-flip-horizontal  mr-2 font-bold text-xl text-[#fe9901] rounded-full border-2 border-[#95adbe] h-10 w-10 text-center hover:bg-[#95adbe] hover:text-[#4c4c4c] pt-1 shadow-lg' ></i>
+          <span class=" font-bold text-xl "> &nbsp; Tailwind CSS  &nbsp;&nbsp;</span>
+        </div>
+        <div class="btn-box mt-4">
+          <h2 class=" font-semibold text-[#000] leading-10 ">Have a Look :&nbsp;&nbsp; <a rel="noopener noreferrer" download="" target="_blank" href="https://dharamchandpatle.github.io/Dribbble/" class="btn px-4 sm:px-4 py-1 text-base sm:text-lg font-semibold  rounded border-2 border-[#95adbe] bg-[#95adbe] text-[#ffffff]" >Let's See  &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+          </h2>
+       </div>
+      </div>
+		</div>
+		<div class="bg-[#f0eff4] flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
+      <video autoplay muted loop src="Minimalist Laptop Mockup Beauty Facebook Cover (3).mp4" class="h-80 bg-gray-500  object-contain"></video>
+			<div class="flex flex-col justify-center flex-1 p-6 ">
+				<!-- <span class="text-xs uppercase text-gray-400">Join, it's free</span> -->
+				<h3 class="text-3xl font-bold">My Portfolio Design 🚀</h3>
+				<p class="my-6 text-[#4c4c4c]">A beautifulPortfolio website website with Services, Pricing and About, Contact Us Pages. Attractive layout designs and animations. Services Details and Testimonials are clearly mentioned. All images and content are copyright free.</p>
+				 
+        <div class="best-work-icon">
+          <i class="fab fa-html5 mr-2 font-bold text-xl  text-[#fe9901] rounded-full border-2 border-[#95adbe] h-10 w-10 text-center hover:bg-[#95adbe] hover:text-[#4c4c4c] pt-1 shadow-lg"></i>
+          <span class=" font-bold text-xl  "> &nbsp; HTML &nbsp;&nbsp;</span>
+          <i class="fab fa-css3-alt mr-2 font-bold text-xl  text-[#fe9901] rounded-full border-2 border-[#95adbe] h-10 w-10 text-center hover:bg-[#95adbe] hover:text-[#4c4c4c] pt-1 shadow-lg"></i>
+          <span class=" font-bold text-xl "> &nbsp; CSS &nbsp;&nbsp;</span>
+          <i class="fab fa-js mr-2 font-bold text-xl  text-[#fe9901] rounded-full border-2 border-[#95adbe] h-10 w-10 text-center hover:bg-[#95adbe] hover:text-[#4c4c4c] pt-1 shadow-lg"></i>
+          <span class=" font-bold text-xl "> &nbsp; java script &nbsp;&nbsp;</span>
+          <i class='bx bxl-tailwind-css bx-flip-horizontal  mr-2 font-bold text-xl text-[#fe9901] rounded-full border-2 border-[#95adbe] h-10 w-10 text-center hover:bg-[#95adbe] hover:text-[#4c4c4c] pt-1 shadow-lg' ></i>
+          <span class=" font-bold text-xl "> &nbsp; Tailwind CSS  &nbsp;&nbsp;</span>
+        </div>
+        <div class="btn-box mt-4">
+          <h2 class=" font-semibold text-[#000] leading-10 ">Have a Look :&nbsp;&nbsp; <a rel="noopener noreferrer" download="" target="_blank" href="https://65c5ad677a5279559b72d8c2--verdant-sawine-b92bae.netlify.app/" class="btn px-4 sm:px-4 py-1 text-base sm:text-lg font-semibold  rounded border-2 border-[#95adbe] bg-[#95adbe] text-[#ffffff]" >Let's See  &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+          </h2>
+       </div>
+      </div>
+		</div>
+	</div>
+</section>
+
+<!-- ......................................... Portfolio Section ............................  -->
+
+
+<section class="flex items-center py-16  bg-[#f5f4f0] font-poppins" id="portfolio">
+  <div class="sm:w-[85%] p-4 mx-auto">
+    <div class="flex items-center">
+      <h2 class="text-xl font-semibold"><span class="font-bold text-4xl text-[#95adbe]">04.</span>My Other Projects  </h2>
+      <div class="flex items-center pl-3">
+        <span class="block w-24 h-1 rounded bg-[#fe9901]"></span>
+      </div>
+    </div><br>
+    <div class="max-w-xl mx-auto">
+      <div class="text-center ">
+          <div class="relative flex flex-col items-center">
+              <div
+                  class="absolute hidden md:block -top-14 left-0 text-[120px] text-gray-400 font-bold opacity-10">
+                  PORTFOLIO
+              </div>
+              <h1 class="text-5xl font-bold dark:text-[#fe9901]"> Our <span class="text-[#4c4c4c]"> PORTFOLIO
+                  </span> </h1>
+          </div>
+         
+      </div>
+  </div>
+      <div class="mx-auto mb-16 border-b border-red-700 w-44 dark:border-gray-400"></div>
+      <div class="flex flex-wrap -m-1 md:-m-2">
+          <div class="w-full px-4 mb-8 lg:w-2/5 ">
+              <div class="relative overflow-hidden shadow-lg group">
+                  <img src="gallery1.png"
+                      class="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
+                      alt="">
+                  <div class="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
+                  <div class="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
+                    <div class="btn-box m-4">
+                      <h2 class=" font-semibold text-[#ffffff] leading-10 ">Have a Look :&nbsp;&nbsp; <a rel="noopener noreferrer" download="" target="_blank" href="https://swiggidharam.netlify.app/" class="btn p-1 text-base sm:text-sm font-semibold  rounded border-2 border-[#95adbe] bg-[#95adbe] text-[#ffffff]" >Let's See  &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                      </h2>
+                   </div>
+                      <h2 class="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">
+                        Your cravings, our delivery. Welcome to the Swiggy clone - where convenience meets culinary delight</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="w-full px-4 mb-8 lg:w-3/5 ">
+              <div class="relative overflow-hidden shadow-lg group">
+                  <img src="vintage made modern.png"
+                      class="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
+                      alt="">
+                  <div class="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
+                  <div class="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
+                    <div class="btn-box m-4">
+                      <h2 class=" font-semibold text-[#ffffff] leading-10 ">Have a Look :&nbsp;&nbsp; <a rel="noopener noreferrer" download="" target="_blank" href="https://dharamchandpatle.github.io/wintage-tailwind/" class="btn p-1 text-base sm:text-sm font-semibold  rounded border-2 border-[#95adbe] bg-[#95adbe] text-[#ffffff]" >Let's See  &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                      </h2>
+                   </div>
+                      <h2 class="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">
+                        Bringing the charm of the past into the present. Experience nostalgia with our Vintage Made Modern website clone.</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="w-full px-4 mb-8 lg:w-3/5 ">
+              <div class="relative overflow-hidden shadow-lg group">
+                  <img src="portfolio1.png"
+                      class="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
+                      alt="">
+                  <div class="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
+                  <div class="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
+                    <div class="btn-box m-4">
+                      <h2 class=" font-semibold text-[#ffffff] leading-10 ">Have a Look :&nbsp;&nbsp; <a rel="noopener noreferrer" download="" target="_blank" href="https://65c5ad677a5279559b72d8c2--verdant-sawine-b92bae.netlify.app/" class="btn p-1 text-base sm:text-sm font-semibold  rounded border-2 border-[#95adbe] bg-[#95adbe] text-[#ffffff]" >Let's See  &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                      </h2>
+                   </div>
+                      <h2 class="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">
+                        Elevate your online presence with our portfolio website clone - showcasing your talents, one click at a time.</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="w-full px-4 mb-8 lg:w-2/5 ">
+              <div class="relative overflow-hidden shadow-lg group">
+                  <img src="Dribble.png"
+                      class="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
+                      alt="">
+                  <div class="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
+                  <div class="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
+                    <div class="btn-box m-4">
+                      <h2 class=" font-semibold text-[#ffffff] leading-10 ">Have a Look :&nbsp;&nbsp; <a rel="noopener noreferrer" download="" target="_blank" href="https://dharamchandpatle.github.io/Dribbble/" class="btn p-1 text-base sm:text-sm font-semibold  rounded border-2 border-[#95adbe] bg-[#95adbe] text-[#ffffff]" >Let's See  &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                      </h2>
+                   </div>
+                      <h2 class="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">
+                        Elevate your design game with our Dribbble clone - where creativity knows no bounds!</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="w-full px-4 mb-8 lg:w-2/5 ">
+              <div class="relative overflow-hidden shadow-lg group">
+                  <img src="portfolio2.png"
+                      class="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
+                      alt="">
+                  <div class="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
+                  <div class="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
+                    <div class="btn-box m-4">
+                      <h2 class=" font-semibold text-[#ffffff] leading-10 ">Have a Look :&nbsp;&nbsp; <a rel="noopener noreferrer" download="" target="_blank" href="https://scintillating-arithmetic-f51c8a.netlify.app/" class="btn p-1 text-base sm:text-sm font-semibold  rounded border-2 border-[#95adbe] bg-[#95adbe] text-[#ffffff]" >Let's See  &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                      </h2>
+                   </div>
+                      <h2 class="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">
+                        Elevate your online presence with our portfolio website clone - showcasing your talents, one click at a time.</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="w-full px-4 mb-8 lg:w-3/5 ">
+              <div class="relative overflow-hidden shadow-lg group">
+                  <img src="restourant.png"
+                      class="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
+                      alt="">
+                  <div class="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
+                  <div class="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
+                    <div class="btn-box m-4">
+                      <h2 class=" font-semibold text-[#ffffff] leading-10 ">Have a Look :&nbsp;&nbsp; <a rel="noopener noreferrer" download="" target="_blank" href="https://dharamchandpatle.github.io/tailwindcss/" class="btn p-1 text-base sm:text-sm font-semibold  rounded border-2 border-[#95adbe] bg-[#95adbe] text-[#ffffff]" >Let's See  &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                      </h2>
+                   </div>
+                      <h2 class="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">
+                        Savor the flavors, indulge in elegance. Welcome to our restaurant website clone, where every click leads to culinary bliss!</h2>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- -------------------------------------- Services section -----------------------------------  -->
+<!-- 
+<section class="flex items-center justify-center bg-[#ffffff]  lg:h-screen" id="services">
+  <div class="px-2 py-20 mx-auto sm:w-[85%]">
+    <div class="flex items-center">
+      <h2 class="text-xl font-semibold"><span class="font-bold text-4xl text-[#95adbe]">05.</span> Services </h2>
+      <div class="flex items-center pl-3">
+        <span class="block w-24 h-1 rounded bg-[#fe9901]"></span>
+      </div>
+    </div><br>
+      <div class="max-w-xl mx-auto">
+          <div class="text-center ">
+              <div class="relative flex flex-col items-center">
+                  <div
+                      class="absolute hidden md:block -top-14 left-0 text-[120px] text-gray-400 font-bold opacity-10">
+                      SERVICES
+                  </div>
+                  <h1 class="text-5xl font-bold dark:text-[#fe9901]"> Our <span class="text-[#4c4c4c]"> SERVICES
+                      </span> </h1>
+                  <div class="flex w-24 mt-1 mb-10 overflow-hidden rounded">
+                      <div class="flex-1 h-2 bg-blue-200">
+                      </div>
+                      <div class="flex-1 h-2 bg-[#a2a8ad]">
+                      </div>
+                      <div class="flex-1 h-2 bg-[#4c4c4c]">
+                      </div>
+                  </div>
+              </div>
+              <p class="mb-16 text-base text-center text-gray-500">
+                WHAT I WILL DO FOR YOU
+              </p>
+          </div>
+      </div>
+      <div class="grid grid-cols-1 gap-x-4 gap-y-6 lg:gap-x-8 lg:gap-y-8 md:grid-cols-2 lg:grid-cols-3">
+          <div
+              class="w-full p-8 mb-5 text-center transition-all bg-[#f0eff4] text-[#4c4c4c] rounded shadow hover:shadow-lg  hover:shadow-[#fe9901]">
+              <div class="inline-block p-4 mb-6 -mt-16 bg-[#f0eff4] text-[#000] shadow-lg shadow-[#fe9901] rounded-full">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" 
+                      class="text-white" viewBox="0 0 16 16">
+                      <path
+                          d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                      <path
+                          d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+                  </svg>
+              </div>
+              <h3 class="mb-4 text-2xl font-semibold  text-[#000]"> WEB DESIGN </h3>
+              <p class="text-base text-[#4c4c4c]">
+                Elevate your brand with our custom web design services. From sleek layouts to immersive experiences, we craft websites tailored to your vision. Let us amplify your online presence and exceed your expectations. Contact us today for digital success!
+              </p>
+          </div>
+          <div class="w-full p-8 mb-5 text-center transition-all bg-[#f0eff4] text-[#4c4c4c] rounded shadow hover:shadow-lg  hover:shadow-[#fe9901]">
+              <div class="inline-block p-4 mb-6 -mt-16 bg-[#f0eff4] text-[#000] shadow-lg shadow-[#fe9901]  rounded-full">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" 
+                      class="text-blue-400" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                          d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0zm-.5 5a.5.5 0 0 1 1 0v1.5H10a.5.5 0 0 1 0 1H8.5V9a.5.5 0 0 1-1 0V7.5H6a.5.5 0 0 1 0-1h1.5V5z" />
+                  </svg>
+              </div>
+              <h3 class="mb-4 text-2xl font-semibold  text-[#000]"> CREATIVE DESIGN 
+              </h3>
+              <p class="text-base text-[#4c4c4c]">
+                ransforming visions into visuals, we offer innovative design services tailored to your needs. From branding to digital experiences, our creative solutions captivate and inspire. Elevate your brand with our expertise.
+              </p>
+          </div>
+          <div
+              class="w-full p-8 mb-5 text-center transition-all  bg-[#f0eff4] text-[#4c4c4c] rounded shadow  hover:shadow-lg hover:shadow-[#fe9901]">
+              <div class="inline-block p-4 mb-6 -mt-16 bg-[#f0eff4] text-[#000] shadow-lg shadow-[#fe9901]  rounded-full">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" 
+                      class="text-white" viewBox="0 0 16 16">
+                      <path
+                          d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z" />
+                      <path
+                          d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z" />
+                  </svg>
+              </div>
+              <h3 class="mb-4 text-2xl font-semibold text-[#000] uppercase">Responsive web development</h3>
+              <p class="text-base text-[#4c4c4c]">
+                Crafting seamless digital experiences. Our responsive web development services ensure your site adapts flawlessly across all devices, delivering exceptional user experiences and maximizing engagement. Elevate your online presence with our expertise.
+              </p>
+          </div>
+      </div>
+  </div>
+</section> -->
+
+<!-- ------------------------------------------ Contact Section -----------------------------------  -->
+<section class="py-24  bg-[#ffffff] text-[#000] " id="contact">
+  <div class="flex items-center px-24">
+    <h2 class="text-xl font-semibold"><span class="font-bold text-4xl text-[#95adbe]">06.</span> Contact Me </h2>
+    <div class="flex items-center pl-3">
+      <span class="block w-24 h-1 rounded bg-[#fe9901]"></span>
+    </div>
+  </div><br>
+	<div class="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
+		<div class="py-6 md:py-0 md:px-6">
+			<h1 class="text-4xl font-bold"><span class="font-bold text-4xl text-[#fe9901]">D</span>haramchand <span class="font-bold text-4xl text-[#95adbe]">P</span>atle</h1>
+			<p class="pt-2 pb-4">Fill in the form to start a conversation</p>
+			<div class="space-y-4">
+				<p class="flex items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-2 sm:mr-6">
+						<path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+					</svg>
+					<span>Madhya Pradesh , India </span>
+				</p>
+				<p class="flex items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-2 sm:mr-6">
+						<path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+					</svg>
+					<span>+91 6263827162</span>
+				</p>
+				<p class="flex items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-2 sm:mr-6">
+						<path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+						<path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+					</svg>
+					<span>dharamchandpatle@gmail.com</span>
+				</p>
+			</div>
+      <div class="btn-box mt-4">
+        <h2 class=" font-semibold text-[#4c4c4c] leading-10 ">Connect With me Now at :&nbsp;&nbsp; <a rel="noopener noreferrer" download="" target="_blank" href="https://www.linkedin.com/in/dharamchand-patle-web-developer-802413282/" class="btn px-5 sm:px-5 py-2 text-base sm:text-lg font-semibold  rounded border-2 border-[#95adbe] bg-[#95adbe] text-[#ffffff]" >&nbsp;&nbsp;<i class="fa-brands fa-linkedin"></i> &nbsp;Linkedin</a>
+        </h2>
+     </div>
+		</div>
+		<form novalidate="" class="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
+			<label class="block">
+				<span class="mb-1">Full name</span>
+				<input type="text" placeholder="Enter your Name..." class="block w-full h-10 border-2 hover:border-[#fe9901] rounded-md shadow-sm focus:ring focus:ri focus:ri bg-[#f5f4f0] text-[#000]" fdprocessedid="s9uy7n">
+			</label>
+			<label class="block">
+				<span class="mb-1">Email address</span>
+				<input type="email" placeholder="Enter Your Email..." class="block w-full h-10 border-2 hover:border-[#fe9901] rounded-md shadow-sm focus:ring focus:ri focus:ri bg-[#f5f4f0] text-[#000]" fdprocessedid="2pude">
+			</label>
+			<label class="block">
+				<span class="mb-1">Message</span>
+				<textarea rows="3" class="block w-full rounded-md border-2 hover:border-[#fe9901] focus:ring focus:ri focus:ri bg-[#f5f4f0] text-[#000]"></textarea>
+			</label>
+      <div class="btn-box mt-4">
+        <button type="button" class="self-center btn px-4 sm:px-4 py-1 text-base sm:text-lg font-semibold  rounded border-2 border-[#95adbe] bg-[#95adbe] text-[#ffffff]" fdprocessedid="b9spat" fdprocessedid="b9spat">Submit</button>
+
+     </div>		</form>
+	</div>
+</section>
+<!-- ---------------------------------------- footer Section -------------------------------  -->
+
+<section class="bg-[#f0eff4] text-[#000] py-9">
+  <div class="flex items-center justify-center text-center ">
+  <div class=" ">
+  <div class="pl-[6rem]">
+    <img src="Dharamchand3.jpg" alt="" class="w-24 h-24 flex items-center justify-center shadow-lg rounded-full border-4 border-[#95adbe]  shadow-[#fe9901]"/> 
+  </div>
+    <h3 class="font-bold text-2xl">Dharamchand Patle</h3>
+  <h4 class=" font-bold">Copyright©2024<a href="#home" class="text-[#95adbe]" > Dharamchand Patle </a></h4>
+</div>
+</div>
+</div>
+
+</section>
+
+</main>
+</body>
+</html>
